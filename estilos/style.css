@@ -50,6 +50,26 @@ body {
     background: rgba(196, 196, 196, 0.35);
     border-radius: 10px;
   }
+.img3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 350px;
+    height: 286.92px;
+    background: #E22B23;
+    border-radius: 10px;
+  }
+.img3 p{
+    display: flex;
+    text-align: center;
+    color: #fff;
+  }
+h4{
+  text-align: center;
+}
+h2{
+  text-align: center;
+}
 .imgleft {
     display: flex;
     width: 260px;
