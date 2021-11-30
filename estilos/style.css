@@ -63,6 +63,8 @@ body {
   }
 .img3:hover {
   width: 500px;
+  background-color: black;
+  transition: ease-in 3s;
 }
 .img3 p{
     display: flex;
