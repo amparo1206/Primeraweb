@@ -21,6 +21,7 @@ body {
 }
 .menu a:hover {
     color: #E22B23;
+    transition: ease 1s;
   }
 .row {  
     display: flex;
