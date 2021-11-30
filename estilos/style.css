@@ -58,7 +58,11 @@ body {
     height: 286.92px;
     background: #E22B23;
     border-radius: 10px;
+    transition: ease-in-out width 2s;
   }
+.img3:hover {
+  width: 500px;
+}
 .img3 p{
     display: flex;
     text-align: center;
