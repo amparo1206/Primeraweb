@@ -45,6 +45,10 @@ table {
 
 /* end reset css */
 
+:root{
+  --manin-bg-color: #E22B23;
+}
+
 .container {
   padding-top: 100px;
 }
@@ -67,7 +71,7 @@ table {
     font-size: 20px;
 }
 .menu a:hover {
-    color: #E22B23;
+    color: var(--manin-bg-color);
     transition: ease 1s;
   }
 .row {  
@@ -79,7 +83,7 @@ table {
   }
 .side {
     width: 320px;
-    background-color: #E22B23;
+    background-color: var(--manin-bg-color);
     padding: 20px;
     border-radius: 10px;
   }
@@ -114,16 +118,16 @@ table {
     align-items: center;
     width: 350px;
     height: 286.92px;
-    background: #E22B23;
+    background: var(--manin-bg-color);
     border-radius: 10px;
-    transition: ease-in-out width 2s;
+    transition: ease-in-out width 1s;
     padding: 30px;
     box-shadow: 0 5px 10px -5px;
   }
 .img3:hover {
   width: 500px;
   background-color: black;
-  transition: ease-in 3s;
+  transition: ease-in 1s;
 }
 .img3 p{
     display: flex;
@@ -239,6 +243,7 @@ footer{
   font-weight: 200;
 }
 /* AQUÍ EMPIEZO CON PORTFOLIO  */
+
 .mundo{
   display: flex;
   flex-direction:  column;
@@ -265,6 +270,46 @@ footer{
   margin-bottom: 10px;
   padding: 20px;
 }
+/* AQUÍ EMPIEZA CONTACTO */
+
+.body3 {
+  background-color: #ffffff;
+  opacity: 0.8;
+  background-image:  radial-gradient(#e81010 1.3px, transparent 1.3px), radial-gradient(#e81010 1.3px, #ffffff 1.3px);
+  background-size: 52px 52px;
+  background-position: 0 0,26px 26px;
+  display: flex;
+  min-height: 100vh;
+}
+
+.form1 {
+  display: flex;
+  margin: 30px;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+  width: 400px;
+  background: var(--manin-bg-color);
+  border-radius: 10px;
+  transition: ease-in-out width 1s;
+  padding: 30px;
+  box-shadow: 0 5px 10px -5px;
+  line-height: 3;
+} 
+.form_titulo{
+  color: #fff;
+  font-size: 30px;
+}
+.form_contenido{
+  color: #fff;
+  margin: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  flex-direction: column;
+  padding: 30px;
+}
+
 @media screen and (max-width: 700px) {
     .row, .menu {   
       flex-direction: column;
