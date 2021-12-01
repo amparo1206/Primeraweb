@@ -89,7 +89,7 @@ table {
   }
 .main {
     display: flex;
-    flex-direction:  column;
+    flex-direction: column;
     align-items:  center;
     flex-wrap: wrap;
     max-width: 1000px;
@@ -279,7 +279,6 @@ footer{
   background-size: 52px 52px;
   background-position: 0 0,26px 26px;
   display: flex;
-  min-height: 100vh;
 }
 
 .form1 {
@@ -295,23 +294,52 @@ footer{
   padding: 30px;
   box-shadow: 0 5px 10px -5px;
   line-height: 3;
+  text-align: center;
 } 
 .form_titulo{
   color: #fff;
   font-size: 30px;
+  margin-bottom: .5em;
 }
 .form_contenido{
   color: #fff;
   margin: 30px;
+  display: grid;
+  gap: 2.5em;
+}
+
+.form_input{
+  width: 100%;
+  font-size: 1rem;
+  padding: .6em .3em;
+  background: none;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid white;
+}
+
+
+.form_label{
+  cursor:pointer;
   display: flex;
   flex-wrap: wrap;
-  align-items: center;
   flex-direction: column;
-  padding: 30px;
+}
+
+.form_submit{
+  background: #fff;
+  color: #000;
+  font-weight: 300;
+  font-size: 1rem;
+  padding: .8em 0;
+  border: none;
+  border-radius: .5em;
+
 }
 
 @media screen and (max-width: 700px) {
-    .row, .menu {   
+    .row, .menu .form1{   
       flex-direction: column;
+    
     }
 }
