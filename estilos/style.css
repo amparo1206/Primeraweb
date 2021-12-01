@@ -45,6 +45,9 @@ table {
 
 /* end reset css */
 
+.container {
+  padding-top: 100px;
+}
 
 .menu {
     display: flex;
@@ -53,6 +56,8 @@ table {
     justify-content: center;
     padding: 20px;
     position: fixed;
+    top:0;
+    left: 0;
   }
 .menu a {
     color: black;
@@ -88,7 +93,7 @@ table {
     background-color: white;
     padding: 20px;
     justify-content: center;
-  }
+    }
 .img1 {
     display: flex;
     border-radius: 50%;
@@ -113,6 +118,7 @@ table {
     border-radius: 10px;
     transition: ease-in-out width 2s;
     padding: 30px;
+    box-shadow: 0 5px 10px -5px;
   }
 .img3:hover {
   width: 500px;
@@ -237,7 +243,6 @@ footer{
   display: flex;
   flex-direction:  column;
   padding-top: 300px;
-
   min-height: 100vh;
   align-items: center;
 }
@@ -250,6 +255,7 @@ footer{
   text-transform: uppercase;
   font-size: 60px;
   font-weight: bold;
+  font-family: 'Source Sans Pro', sans-serif;
 }
 .imggithub{
   display: flex;
