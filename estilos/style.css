@@ -346,6 +346,14 @@ footer{
   color: white;
   cursor: pointer;
 }
+textarea{
+  border: none;
+  outline: none;
+  width: 355px;
+  height: 165px;
+  resize: none;
+}
+
 
 @media screen and (max-width: 700px) {
     .row, .menu .form1 .container{   
