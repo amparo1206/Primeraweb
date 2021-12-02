@@ -281,19 +281,23 @@ footer{
   display: flex;
 }
 
+.formulario {
+  display: flex;
+  justify-content: center;
+}
+
 .form1 {
   display: flex;
+  justify-content: center;
   margin: 30px;
   flex-wrap: wrap;
   flex-direction: column;
-  align-items: center;
+  padding: 30px;
   width: 400px;
   background: var(--manin-bg-color);
   border-radius: 10px;
-  transition: ease-in-out width 1s;
-  padding: 30px;
   box-shadow: 0 5px 10px -5px;
-  line-height: 3;
+  line-height: 2;
   text-align: center;
 } 
 .form_titulo{
@@ -320,10 +324,10 @@ footer{
 
 
 .form_label{
-  cursor:pointer;
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
+  font-size: 20px;
 }
 
 .form_submit{
@@ -337,8 +341,14 @@ footer{
 
 }
 
+.form_submit:hover {
+  background-color: #000;
+  color: white;
+  cursor: pointer;
+}
+
 @media screen and (max-width: 700px) {
-    .row, .menu .form1{   
+    .row, .menu .form1 .container{   
       flex-direction: column;
     
     }
